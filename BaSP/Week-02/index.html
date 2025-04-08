@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Pública José Hernández</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #c3e2e5;
+      color: #1f1f1f;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      border-bottom: 2px solid #dc5a5a;
+    }
+
+    .menu-icon {
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      color: #2a2a2a;
+    }
+
+    .social-icons img {
+      width: 28px;
+      margin-left: 12px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 3rem 2rem;
+      gap: 2.5rem;
+    }
+
+    .text-section {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .text-section h2 {
+      font-weight: bold;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #2a2a2a;
+    }
+
+    .text-section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-top: 0.8rem;
+    }
+
+    .image-section {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .image-section img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .container {
+        flex-direction: column;
+      }
+
+      .logo {
+        font-size: 1.5rem;
+      }
+
+      .text-section h2 {
+        font-size: 1.5rem;
+      }
+
+      .text-section p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="menu-icon">☰</div>
+    <div class="logo">Biblioteca Pública José Hernández</div>
+    <div class="social-icons">
+        <a href="mailto:bibliojh@gmail.com">
+            <img src="https://img.icons8.com/material-rounded/24/000000/new-post.png" alt="Correo">
+          </a>
+          <a href="https://www.instagram.com/bibliotecaferre" target="_blank">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/people/Biblioteca-Ferre/61557865380803/?mibextid=ZbWKwL" target="_blank">
+            <img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png" alt="Facebook">
+          </a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="text-section">
+      <h2>Bienvenido a la página de la biblio</h2>
+      <p><strong>This is a model</strong></p>
+      <p>La Biblioteca Municipal es un espacio dedicado a la promoción del conocimiento, la lectura y la cultura. Ofrecemos una amplia gama de servicios, desde el préstamo de libros hasta actividades educativas para toda la familia. Ya seas estudiante, profesional, o simplemente un amante de la lectura, aquí encontrarás recursos para satisfacer tus intereses.</p>
+    </div>
+    <div class="image-section">
+      <img src="imagen biblio landing.jpg" alt="Biblioteca Pública">
+    </div>
+  </div>
+
+</body>
+</html>
