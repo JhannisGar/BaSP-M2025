@@ -79,7 +79,7 @@ Para más información, puedes contactar a la biblioteca en:
 ##  Vista previa
 
 La vista de la página:
-![image](https://github.com/user-attachments/assets/da1b2591-e2e8-4c2f-b90c-736203c7d140)
+![image](https://github.com/user-attachments/assets/257b5d0e-d206-456a-b7b9-e4d3d055eebf)
 
 ---
 
